@@ -378,7 +378,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 如果您使用了本工具或数据集，欢迎引用：
 
 ```bibtex
-@misc{tieba-export-pipeline,
+@misc{tieba-data-pipeline-to-txt,
   author = {[Sehatsu]},
   title = {百度贴吧个人主页批量导出与数据清洗工具链},
   year = {2025},
