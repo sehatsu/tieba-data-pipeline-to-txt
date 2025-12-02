@@ -383,7 +383,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
   title = {百度贴吧个人主页批量导出与数据清洗工具链},
   year = {2025},
   publisher = {GitHub},
-  url = {[您的GitHub仓库URL]}
+  url = {[https://github.com/sehatsu/tieba-data-pipeline-to-txt]}
 }
 ```
 
@@ -400,6 +400,6 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ## 联系方式
 
 如有问题或建议，欢迎：
-- 提交 [GitHub Issue](您的仓库Issues链接)
+- 提交 [GitHub Issue](https://github.com/sehatsu/tieba-data-pipeline-to-txt/issues)
 - 或使用Claude等AI助手获取技术支持
 tips:（最好用Claude吧，因为我不经常使用Github。）
