@@ -1,0 +1,17 @@
+// 采集当前页面的所有帖子URL
+let urls = new Set();
+document.querySelectorAll('a').forEach(a => {
+    let href = a.getAttribute('href');
+    if (href && href.includes('/p/')) {
+        let match = href.match(/\/p\/(\d+)/);
+        if (match) {
+            urls.add('https://tieba.baidu.com/p/' + match[1]);
+        }
+    }
+});
+
+// 输出结果
+let result = Array.from(urls).join('\n');
+console.log('找到 ' + urls.size + ' 个URL:\n');
+console.log(result);
+result;  // 返回结果，方便复制

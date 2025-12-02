@@ -1,0 +1,58 @@
+# 百度贴吧个人主页批量导出与数据清洗工具链
+# Python依赖包列表
+
+# 浏览器自动化工具
+selenium>=4.0.0
+
+# WebDriver自动管理工具
+webdriver-manager>=4.0.0
+
+# ===================================================
+# 安装说明
+# ===================================================
+# 
+# 方法1：使用pip安装（推荐）
+# 在控制台运行：
+#     pip install -r requirements.txt
+#
+# 方法2：手动安装
+# 在控制台依次运行：
+#     pip install selenium
+#     pip install webdriver-manager
+#
+# 方法3：从PyPI网站手动下载
+# 如果您的电脑没有pip，可以访问：
+#     https://pypi.org/project/selenium/
+#     https://pypi.org/project/webdriver-manager/
+# 下载安装包后手动安装
+#
+# ===================================================
+# 验证安装
+# ===================================================
+#
+# 在控制台运行以下命令验证是否安装成功：
+#     python -c "import selenium; print('selenium版本:', selenium.__version__)"
+#     python -c "import webdriver_manager; print('webdriver-manager已安装')"
+#
+# 如果没有报错，说明安装成功！
+#
+# ===================================================
+# 常见问题
+# ===================================================
+#
+# Q: 运行pip命令提示"pip不是内部或外部命令"
+# A: 说明Python未正确安装或未添加到PATH
+#    解决方案：
+#    1. 重新安装Python，勾选"Add Python to PATH"
+#    2. 或者使用完整路径：
+#       C:\Python38\Scripts\pip.exe install selenium
+#
+# Q: 安装时提示权限错误
+# A: 在Windows上以管理员身份运行控制台
+#    在Mac/Linux上使用：
+#       pip install --user selenium webdriver-manager
+#
+# Q: 安装速度很慢
+# A: 可以使用国内镜像源（清华大学）：
+#       pip install -i https://pypi.tuna.tsinghua.edu.cn/simple selenium webdriver-manager
+#
