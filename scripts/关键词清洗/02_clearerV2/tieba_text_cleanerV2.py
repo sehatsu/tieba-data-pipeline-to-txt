@@ -204,7 +204,6 @@ def create_replacement_patterns():
         r"关注：\d+贴子：\d+",
         r"人气总榜 \d+",
         r"收到：\d+ ",
-        r"",
      
         
         
